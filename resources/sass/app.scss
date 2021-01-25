@@ -5,3 +5,10 @@ body {
   background-color: purple;
   color: white;
 }
+
+
+.container {
+  @import 'header';
+  @import 'footer';
+
+}

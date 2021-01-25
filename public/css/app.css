@@ -3,3 +3,11 @@ body {
   color: white;
 }
 
+.container #header {
+  background-color: green;
+}
+
+.container #footer {
+  background-color: blue;
+}
+
