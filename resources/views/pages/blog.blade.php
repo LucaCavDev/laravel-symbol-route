@@ -4,7 +4,7 @@
 
   <div class="content">
 
-    <h1>HOME</h1>
+    <h1>BLOG</h1>
 
     <p>
       REPO: laravel-symbol-route<br>
@@ -21,13 +21,13 @@
     </p>
 
     <h2>
-      <a href="{{ route('about') }}">
-        ABOUT
+      <a href="{{ route('home') }}">
+        HOME
       </a>
     </h2>
     <h2>
-      <a href="{{ route('blog') }}">
-        BLOG
+      <a href="{{ route('about') }}">
+        ABOUT
       </a>
     </h2>
 

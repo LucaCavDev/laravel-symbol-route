@@ -10,4 +10,15 @@ class MainController extends Controller
 
     return view('pages.home');
   }
+
+  public function blog() {
+
+    return view('pages.blog');
+  }
+
+  public function about() {
+
+    return view('pages.about');
+  }
+
 }

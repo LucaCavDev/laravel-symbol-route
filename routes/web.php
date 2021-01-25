@@ -12,4 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-Route::get('/', 'MainController@home') -> name('home');
+Route::get('/home', 'MainController@home') -> name('home');
+
+
+Route::get('/blog', 'MainController@blog') -> name('blog');
+
+
+Route::get('/about', 'MainController@about') -> name('about');
