@@ -31,6 +31,14 @@
       </a>
     </h2>
 
+    <p class="img">
+      <img src="img/hacker.jpg" alt="hack" style="height: 250px; width: auto;">
+    </p>
+    <p class="img">
+      <img src="{{ asset('img/cavolfiore.jpg') }}" style="height: 250px; width: auto;">
+    </p>
+
+
 
   </div>
 

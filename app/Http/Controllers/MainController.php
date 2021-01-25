@@ -21,4 +21,5 @@ class MainController extends Controller
     return view('pages.about');
   }
 
+
 }
