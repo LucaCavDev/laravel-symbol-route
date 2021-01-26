@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'MainController@home') -> name('home');
 
 Route::get('/pagamenti', 'MainController@getPagamenti') -> name('pagamenti');
+
+Route::get('/pagamentip', 'MainController@getPagamentiP') -> name('pagamentip');
