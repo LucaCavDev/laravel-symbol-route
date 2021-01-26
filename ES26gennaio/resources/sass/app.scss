@@ -1,1 +1,25 @@
 //
+
+
+body {
+  background-color: purple;
+  color: white;
+}
+
+
+.container {
+  @import 'header';
+  @import 'footer';
+
+}
+
+li {
+  list-style: none;
+}
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: purple;
+  color: white;
+}
+
+.container #header {
+  background-color: green;
+}
+
+.container #footer {
+  background-color: blue;
+}
+
+li {
+  list-style: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
