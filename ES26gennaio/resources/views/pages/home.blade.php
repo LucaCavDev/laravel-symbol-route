@@ -22,6 +22,13 @@
       </a>
     </h2>
 
+    <h2>
+      <a href="{{ route('pagamentip') }}">
+        PAGAMENTI PENDENTI
+      </a>
+    </h2>
+
+
 
 
   </div>

@@ -1,6 +1,13 @@
 @extends('layouts.main-layout')
 @section('content')
   <h1>Pagamenti</h1>
+
+  <h2>
+    <a href="{{ route('home') }}">
+      HOME
+    </a>
+  </h2>
+
   <ul>
     {{-- VERS 1 --}}
     @foreach ($pagamenti as $pagamento)
