@@ -88,9 +88,17 @@ class MainController extends Controller
           $pagamentiPend[] = $pagamento;
         }
     }
+    // VERSIONE 1
     $pagamenti = $pagamentiPend;
-    // dd($ospitiRes);
+    // dd($pagamentiPend);
     return view('pages.pagamenti', compact('pagamenti'));
+
+    //  VERSIONE 2
+    //  return view('pages.pagamenti', [
+    //    'pagamenti' => $pagementiPend
+    //  ]);
+
+
 
 
   }
